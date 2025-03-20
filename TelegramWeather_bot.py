@@ -2,8 +2,8 @@ import requests
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
-TOKEN = "7300998241:AAEKarzMXoz9Sgi6f1RRpA-HoJ4-oatDgVE"
-WEATHER_API_KEY = "12f1c000ced74607ac3135014251503"
+TOKEN
+WEATHER_API_KEY
 user_data = {}
 
 async def start(update: Update, context: CallbackContext):
